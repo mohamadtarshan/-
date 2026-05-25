@@ -1,4 +1,4 @@
-        import telebot
+                    import telebot
 import sqlite3
 import os
 from telebot import types
@@ -194,4 +194,4 @@ def process_withdraw_address(message, amount, currency):
 # ... (باقي الأوامر ونظام التحويل)
 
 print("✅ البوت يعمل الآن على السيرفر...")
-bot.polling(non_stop=True)
+bot.polling(non_stop=True) 
